@@ -7,8 +7,14 @@ The defaul configuration takes audio samples from a FIFO. An example of sending 
 ```
 mpg123 -s http://127.0.0.1:8000 | ./stc - - -s mw.sts > /tmp/play
 ```
+
+..to test without mpd or another local source, simply subsitute the stream with any online feed:
+```
+mpg123 -s http://maxxima.mine.nu:8000 | ./stc - - -s mw.sts > /tmp/play
+```
+
 * mpg123 plays my mpd stream.
-* ./stc is my audio processor, Stereo Tool. This is optional.
+* ./stc is my audio processor, Stereo Tool (http://www.stereotool.com/). This is optional.
 * '/tmp/play' is the named pipe which will send the audio data to the transmitter.
 
 In any case, most audio programs that run in a command-line should put out valid samples; so long as they a piped through '/tmp/play'. Alternatively, you can replace the file block with an audio block for ALSA or JACK input, but bear in mind JACK does not support Stereo input, and ALSA is often slow and impairs performance. 
