@@ -13,7 +13,7 @@ The defaul configuration takes audio samples from a FIFO. An example of sending 
 mpg123 -s http://127.0.0.1:8000 | ./stc - - -s mw.sts > /tmp/play
 ```
 
-..to test without mpd or another local source, simply subsitute the stream with any online feed:
+..to test without mpd or another local source, simply subsitute the stream with any online feed (http://somafm.com/):
 ```
 mpg123 -s http://maxxima.mine.nu:8000 | ./stc - - -s mw.sts > /tmp/play
 ```
