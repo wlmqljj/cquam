@@ -3,7 +3,7 @@ gr-cquam
 
 AM Stereo flowgraph for GNURadio. Implementation of Motorola's CQUAM standard for AM Stereo transmission in GNURadio. The flowgraph uses native blocks, and requires no extra dependancies.
 ##Included
-* **[NEW] CQUAM.xml** -- Heir block for GNURadio. A complete CQUAM transmitter in a single block. :)
+* **[NEW] CQUAM.xml** -- Hierarchical block for GNURadio. A complete CQUAM transmitter in a single block.
 * **CQUAM.GRC** -- The main attraction. A GRC (Gnuradio Companion) flowgraph of an AM Stereo transmitter per the C-QUAM standard.
 * **mw.sts (optional)** -- Optimised preset for the Stereo Tool processor for use in the CQUAM transmitter. (See "Usage").
 * **IQ Samples: cquam.wav, cquam_2.wav** -- A complex WAV file that can be played in SDR software (e.g SDR#, SoDiRa). Currently, only the SoDiRa software can decode C-QUAM. (See "Listening").
