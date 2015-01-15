@@ -1,0 +1,39 @@
+<block>
+  <name>CQUAM Transmitter</name>
+  <key>CQUAM_TX</key>
+  <category>CQUAM</category>
+  <import>execfile("/home/naru/.grc_gnuradio/CQUAM_Transmitter.py")</import>
+  <make>CQUAM_Transmitter(
+    para_bandw=$para_bandw,
+    para_sampr=$para_sampr,
+)</make>
+  <callback>set_para_bandw($para_bandw)</callback>
+  <callback>set_para_sampr($para_sampr)</callback>
+  <param>
+    <name>Bandwidth</name>
+    <key>para_bandw</key>
+    <value>10.5e3</value>
+    <type>raw</type>
+  </param>
+  <param>
+    <name>CQUAM SR</name>
+    <key>para_sampr</key>
+    <value>48e3</value>
+    <type>raw</type>
+  </param>
+  <sink>
+    <name>Audio In</name>
+    <type>short</type>
+    <vlen>2</vlen>
+  </sink>
+  <source>
+    <name>CQUAM-TX</name>
+    <type>complex</type>
+    <vlen>1</vlen>
+  </source>
+  <doc>Jordan Johnson
+CQUAM Transmitter for GNURadio.
+Take byte=type audio input, and outputs complex IQ.
+</doc>
+  <grc_source>/home/naru/.grc_gnuradio/cqhr.grc</grc_source>
+</block>
