@@ -2,7 +2,7 @@ gr-cquam
 =====
 
 AM Stereo flowgraph for GNURadio. Implementation of Motorola's CQUAM standard for AM Stereo transmission in GNURadio. The flowgraph uses native blocks, and requires no extra dependancies.
-##Included
+##What's Here?
 * **[NEW] cqsca.grc** -- GRC flowgraph of a Stereo FM transmitter with a CQUAM-encoded subcarrier at 67kHz.
 * **CQUAM.GRC** -- The main attraction. A GRC (Gnuradio Companion) flowgraph of an AM Stereo transmitter per the C-QUAM standard.
 * **mw.sts (optional)** -- Optimised preset for the Stereo Tool processor for use in the CQUAM transmitter. (See "Usage").
