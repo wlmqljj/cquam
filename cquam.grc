@@ -10,7 +10,7 @@
     </param>
     <param>
       <key>window_size</key>
-      <value>1220, 340</value>
+      <value>890, 300</value>
     </param>
     <param>
       <key>category</key>
@@ -30,7 +30,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 6)</value>
+      <value>(20, 90)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -82,60 +82,6 @@
     </param>
   </block>
   <block>
-    <key>variable</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(917, 240)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>hackrf_rate</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>8000000</value>
-    </param>
-  </block>
-  <block>
-    <key>variable</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(355, 74)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>samp_rate</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>44100</value>
-    </param>
-  </block>
-  <block>
     <key>analog_sig_source_x</key>
     <param>
       <key>amp</key>
@@ -163,7 +109,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(501, 131)</value>
+      <value>(202, 135)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -191,7 +137,7 @@
     </param>
     <param>
       <key>samp_rate</key>
-      <value>samp_rate</value>
+      <value>44100</value>
     </param>
     <param>
       <key>waveform</key>
@@ -226,7 +172,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(687, 10)</value>
+      <value>(424, 6)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -254,7 +200,7 @@
     </param>
     <param>
       <key>samp_rate</key>
-      <value>samp_rate</value>
+      <value>44100</value>
     </param>
     <param>
       <key>waveform</key>
@@ -277,7 +223,7 @@
     </param>
     <param>
       <key>device_name</key>
-      <value>pulse_monitor</value>
+      <value>tx_source</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -285,7 +231,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(202, 30)</value>
+      <value>(20, 30)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -336,7 +282,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(743, 141)</value>
+      <value>(444, 141)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -387,7 +333,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(533, 44)</value>
+      <value>(238, 44)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -438,7 +384,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(687, 129)</value>
+      <value>(379, 133)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -489,7 +435,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(202, 238)</value>
+      <value>(347, 242)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -532,7 +478,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(889, 141)</value>
+      <value>(533, 117)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -579,11 +525,11 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1006, 99)</value>
+      <value>(677, 149)</value>
     </param>
     <param>
       <key>_rotation</key>
-      <value>180</value>
+      <value>270</value>
     </param>
     <param>
       <key>id</key>
@@ -626,7 +572,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(537, 97)</value>
+      <value>(242, 97)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -681,11 +627,11 @@
     </param>
     <param>
       <key>file</key>
-      <value>output.wav</value>
+      <value>/mnt/mediay/SEND/output_4.wav</value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 131)</value>
+      <value>(16, 220)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -701,7 +647,7 @@
     </param>
     <param>
       <key>samp_rate</key>
-      <value>samp_rate</value>
+      <value>44100</value>
     </param>
   </block>
   <block>
@@ -724,7 +670,7 @@
     </param>
     <param>
       <key>cutoff_freq</key>
-      <value>12e3</value>
+      <value>11e3</value>
     </param>
     <param>
       <key>decim</key>
@@ -740,7 +686,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(824, 2)</value>
+      <value>(525, 155)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -768,46 +714,15 @@
     </param>
     <param>
       <key>samp_rate</key>
-      <value>samp_rate</value>
+      <value>44100</value>
     </param>
     <param>
       <key>width</key>
-      <value>100</value>
+      <value>1e3</value>
     </param>
     <param>
       <key>win</key>
-      <value>firdes.WIN_HAMMING</value>
-    </param>
-  </block>
-  <block>
-    <key>note</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(590, 10)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>note_0_0_0</value>
-    </param>
-    <param>
-      <key>note</key>
-      <value>Stereo Pilot</value>
+      <value>firdes.WIN_BLACKMAN</value>
     </param>
   </block>
   <block>
@@ -974,11 +889,11 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(1002, 159)</value>
+      <value>(723, 62)</value>
     </param>
     <param>
       <key>_rotation</key>
-      <value>0</value>
+      <value>180</value>
     </param>
     <param>
       <key>id</key>
@@ -994,7 +909,7 @@
     </param>
     <param>
       <key>sample_rate</key>
-      <value>hackrf_rate</value>
+      <value>8000000</value>
     </param>
   </block>
   <block>
@@ -1013,7 +928,7 @@
     </param>
     <param>
       <key>decim</key>
-      <value>samp_rate</value>
+      <value>44100</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -1025,11 +940,11 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(622, 216)</value>
+      <value>(739, 208)</value>
     </param>
     <param>
       <key>_rotation</key>
-      <value>180</value>
+      <value>0</value>
     </param>
     <param>
       <key>id</key>
@@ -1037,7 +952,7 @@
     </param>
     <param>
       <key>interp</key>
-      <value>hackrf_rate</value>
+      <value>8000000</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -1056,65 +971,11 @@
       <value>ccc</value>
     </param>
   </block>
-  <block>
-    <key>virtual_sink</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(1006, 14)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>virtual_sink_0</value>
-    </param>
-    <param>
-      <key>stream_id</key>
-      <value>TX</value>
-    </param>
-  </block>
-  <block>
-    <key>virtual_source</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(206, 175)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>virtual_source_0</value>
-    </param>
-    <param>
-      <key>stream_id</key>
-      <value>TX</value>
-    </param>
-  </block>
   <connection>
     <source_block_id>analog_sig_source_x_2_0</source_block_id>
     <sink_block_id>blocks_add_xx_0</sink_block_id>
     <source_key>0</source_key>
-    <sink_key>0</sink_key>
+    <sink_key>1</sink_key>
   </connection>
   <connection>
     <source_block_id>analog_sig_source_x_2_0_0</source_block_id>
@@ -1156,7 +1017,7 @@
     <source_block_id>blocks_add_xx_1</source_block_id>
     <sink_block_id>blocks_add_xx_0</sink_block_id>
     <source_key>0</source_key>
-    <sink_key>1</sink_key>
+    <sink_key>0</sink_key>
   </connection>
   <connection>
     <source_block_id>blocks_add_xx_3</source_block_id>
@@ -1196,25 +1057,19 @@
   </connection>
   <connection>
     <source_block_id>low_pass_filter_0</source_block_id>
-    <sink_block_id>virtual_sink_0</sink_block_id>
+    <sink_block_id>blocks_complex_to_float_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>low_pass_filter_0</source_block_id>
+    <sink_block_id>rational_resampler_xxx_2</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
     <source_block_id>rational_resampler_xxx_2</source_block_id>
     <sink_block_id>osmosdr_sink_0_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>virtual_source_0</source_block_id>
-    <sink_block_id>blocks_complex_to_float_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>virtual_source_0</source_block_id>
-    <sink_block_id>rational_resampler_xxx_2</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
